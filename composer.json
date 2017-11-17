@@ -1,0 +1,22 @@
+{
+    "name": "thorma/buildurls",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "guzzlehttp/psr7": "^1.4",
+        "symfony/psr-http-message-bridge": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "Emiliano Tisato",
+            "email": "emilianotisato@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "./"
+        ],
+        "psr-4": {
+            "Core\\": "core/"
+        }
+    }
+}
