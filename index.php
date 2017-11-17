@@ -5,4 +5,4 @@ require 'variables.php';
 
 use Core\App;
 
-App::execute($fileName, $fromPage, $toPage, $containerNode, $linkInsideContainer);
+App::execute($fileName, $paginatedUrl, $fromPage, $toPage, $containerNode, $linkInsideContainer);
