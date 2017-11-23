@@ -1,4 +1,5 @@
 /.idea/
 /vendor
+/material
 /output
 variables.php

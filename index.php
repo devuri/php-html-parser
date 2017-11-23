@@ -5,4 +5,10 @@ require 'variables.php';
 
 use Core\App;
 
-App::execute($fileName, $paginatedUrl, $fromPage, $toPage, $containerNode, $linkInsideContainer);
+if($buildUrlsFromPaginatedSite) {
+    App::buildUrlsFromPaginatedSite($fileName, $paginatedUrl, $fromPage, $toPage, $containerNode, $linkInsideContainer);
+}
+
+if ($getLinksFromHtml) {
+    App::getLinksFromHtml($fileName, $pageUrl, $containerNode, $linkInsideContainer);
+}
